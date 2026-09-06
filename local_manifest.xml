@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Remote definition -->
+    <remote name="github" fetch="https://github.com" />
+
+    <!-- Device Tree -->
+    <project path="device/xiaomi/tornado"
+             name="heppysingh/android_device_xiaomi_tornado"
+             remote="github"
+             revision="lineage-24.0" />
+
+    <!-- Prebuilt Kernel & Modules -->
+    <project path="device/xiaomi/tornado-kernel"
+             name="heppysingh/android_device_xiaomi_tornado-kernel"
+             remote="github"
+             revision="main" />
+
+    <!-- Vendor Blobs & Makefiles -->
+    <project path="vendor/xiaomi/tornado"
+             name="heppysingh/android_vendor_xiaomi_tornado"
+             remote="github"
+             revision="main" />
+
+    <!-- Hardware Repositories -->
+    <project path="hardware/xiaomi"
+             name="LineageOS/android_hardware_xiaomi"
+             remote="github" />
+
+    <project path="hardware/mediatek"
+             name="LineageOS/android_hardware_mediatek"
+             remote="github" />
+</manifest>
