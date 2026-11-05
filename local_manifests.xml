@@ -19,8 +19,8 @@
     <linkfile src="headers" dest="kernel/xiaomi/tornado" />
   </project>  
 
-  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ag" revision="lineage-23" /> 
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="ag" revision="lineage-23.0" /> 
 
-  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="ag" revision="lineage-23" /> 
+  <project name="android_device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="ag" revision="lineage-23.0" /> 
 
 </manifest>
