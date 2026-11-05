@@ -15,7 +15,7 @@
   </project>
 	-->
 
-	   <project path="device/xiaomi/tornado-kernel" name="android_kernel_xiaomi_tornado" remote="ab" revision="main" >
+	   <project path="device/xiaomi/tornado-kernel" name="android_device_xiaomi_tornado-kernel" remote="ab" revision="main" >
     <linkfile src="headers" dest="kernel/xiaomi/tornado" />
   </project>  
 
